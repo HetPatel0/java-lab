@@ -15,7 +15,7 @@ public class CheckVowel {
                 c++;
             }
         }
-        System.out.println("No of vowels :"+ v+"No of Consonent" + c);
+        System.out.println("No of vowels :"+ v+"  No of Consonent" + c);
 
     }
     
