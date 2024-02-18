@@ -14,6 +14,7 @@ class Bank_Account {
 
          System.out.println("userName");
          userName = sc.nextLine();
+
          
          System.out.println("email");
          email = sc.nextLine();
