@@ -10,6 +10,7 @@ public class AvgArray {
             arr[i]=sc.nextInt();
              sum = sum+arr[i];
         }
+
         double avg = sum/(double)10;
         System.out.println(avg);
     }
