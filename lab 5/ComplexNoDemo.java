@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 class ComplexNo {
     int realNO,imgNO;
     ComplexNo() {
@@ -20,6 +22,7 @@ class ComplexNo {
 }
 
 public class ComplexNoDemo {
+
 
     public static void main(String[] args) {
         ComplexNo c1 = new ComplexNo();
