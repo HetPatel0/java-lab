@@ -9,9 +9,7 @@ public class Lab9B {
     }
     
 }
-/**
- * PrintNum
- */c egvev4v4rewrvwrtvrv
+        
 class PrintNum extends Thread {
     int start;
     public PrintNum(int a){

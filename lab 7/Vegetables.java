@@ -1,6 +1,10 @@
 abstract class InnerVegetables {
     String name;
     String color;
+
+     protected void fun(){
+        System.out.println("hi");
+     }
     abstract public String toString();
 }
  class Potato extends InnerVegetables{
@@ -57,8 +61,10 @@ public class Vegetables {
         System.out.println(p2.toString());
         Tomato p3 = new Tomato();
         System.out.println(p3.toString());
+        p1.fun();
 
-        
+        InnerVegetables i1 = new InnerVegetables() ;
+        i1.fun();
     }
     
 }
